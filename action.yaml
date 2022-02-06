@@ -1,4 +1,4 @@
-name: General Release
+name: General Release #
 description: 'A simple action that has an option to toggle `include administrators` on branch protection, and then run semantic-release with a given release config'
 inputs:
   token:
