@@ -13,7 +13,7 @@ A simple action that has an option to toggle `include administrators` on branch 
 <!-- start usage -->
 
 ```yaml
-- uses: tnlcommunityo/action-release-general@undefined
+- uses: TnLCommunity/action-release-general@undefined
   with:
     # git token to use for the run
     token: ""
@@ -33,11 +33,11 @@ A simple action that has an option to toggle `include administrators` on branch 
 <!-- end usage -->
 <!-- start inputs -->
 
-| **Input**            | **Description**                                                                                                                                                                |            **Default**             | **Required** |
-| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------: | :----------: |
-| **`token`**          | git token to use for the run                                                                                                                                                   |                                    |   **true**   |
-| **`toggle-admins`**  | If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always() |                                    |  **false**   |
-| **`release-config`** | The release configuration to use for the release. Set this to `@tnlcommunity/release-config-javascript-actions` for javascript actions                                             | `@tnlcommunity/release-config-general` |  **false**   |
+| **Input**            | **Description**                                                                                                                                                                |              **Default**               | **Required** |
+| :------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------: | :----------: |
+| **`token`**          | git token to use for the run                                                                                                                                                   |                                        |   **true**   |
+| **`toggle-admins`**  | If true, this action will disable the `include administrators` setting in branch protection for this branch, and re-enable it after release. Re-enabling is run using always() |                                        |  **false**   |
+| **`release-config`** | The release configuration to use for the release. Set this to `@tnlcommunity/release-config-javascript-actions` for javascript actions                                         | `@tnlcommunity/release-config-general` |  **false**   |
 
 <!-- end inputs -->
 <!-- start outputs -->
